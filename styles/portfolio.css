@@ -1,0 +1,136 @@
+.open-sans-regular {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+  /* Shared Style*/
+
+  .text-color{
+    color: #FD6E0A;
+  }
+  .dark-1{
+    color: #181818;
+  }
+  .dark-2{
+    color: #474747;
+  }
+  .dark-3{
+    color: #757575;
+  }
+  .bold{
+    font-weight: bold;
+  }
+
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
+  .btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 16px 33px;
+    border: none;
+  }
+  
+  /* Nav Styles */
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+
+  }
+  .nav-title{
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+  }
+
+  ul li a{
+    text-decoration: none;
+    font-size: 16pxx;
+  }
+  .header{
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    
+  }
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 140px;
+
+  }
+  .banner-content{
+    max-width: 580px;
+    margin-top: 70px;
+
+  }
+  .banner-image{
+    width: 580px;
+  }
+  .banner-greetings{
+    font-size: 25px;
+    font-weight: 600px;
+  }
+  .banner-title{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .banner-description{
+    font-size: 14px;
+  }
+  .btn-contact{
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+  }
+
+/* About */
+.about{
+    margin: 110px 200px;
+    padding: 110px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+}
+.about-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #FFFFFF;
+}
+.about-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 12px;
+}
+.about-item{
+    font-size: 12px;
+}
