@@ -38,7 +38,10 @@
     padding: 16px 33px;
     border: none;
   }
-  
+  .bg-color{
+    
+  }
+
   /* Nav Styles */
   .nav{
     display: flex;
@@ -114,7 +117,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     background-color: #FFFFFF;
 }
 .about-item-container{
@@ -133,4 +135,70 @@
 }
 .about-item{
     font-size: 12px;
+}
+
+/* Skill section styles */
+
+.skills-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 110px 220px;
+
+}
+.skill-item-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.skill-description{
+  font-size: 14px;
+  text-align: center;
+}
+.skills{
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid seagreen;
+  padding: 20px 20px;
+  
+}
+.skill-item-title{
+  font-size: 16px;
+  font-weight: bold;
+}
+.skill-item-description{
+  font-size: 14px;
+}
+/*Resume Section */
+
+.resume-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 110px 220px;
+}
+.resume-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.education-experience{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+.degree-decription, .company-description{
+  font-size: 12px;
+}
+.university-name, .company-name{
+  font-size: 15px;
+  font-weight: 600px;
+}
+.degree-name{
+  font-size: 20px;
+  font-weight: 700;
 }
