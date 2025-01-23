@@ -87,7 +87,7 @@
 
   }
   .banner-image{
-    width: 580px;
+    max-width: 580px;
   }
   .banner-greetings{
     font-size: 25px;
@@ -207,7 +207,6 @@
 .feedback-section{
   display: flex;
   justify-content: center;
-  align-items:  center;
   padding: 110px 150px;
   gap: 30px;
 }
@@ -217,8 +216,60 @@
 }
 .connect-description{
   font-size: 14px;
+  padding-right: 117px;
 }
 .connect-icon{
   display: flex;
   gap: 15px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav,
+  .nav ul,
+  .banner,
+  .about-container,
+  .about-item-container,
+  .skills-section, 
+  .skill-item-div,
+  .resume-section, 
+  .education-experience,
+  .feedback-section{
+    flex-direction: column;
+    margin: 40px 30px;
+  }
+  .display-hide{
+    display: none;
+  }
+  .about{
+    margin: 40px 30px;
+    padding: 60px 20px;
+  }
+  .banner-image > img{
+    width: 90%;
+  }
+  .banner-content{
+    margin-top: 20px;
+  }
+  .header{
+    background-image: none;
+  }
+  .nav ul li{
+    padding-top: 20px;
+  }
+  .feedback-section{
+    padding: 40px 20px;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    width: calc(100% - 40px);
+  }
 }
